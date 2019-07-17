@@ -1,0 +1,6 @@
+export interface  Post {
+  title: string;
+  content: string;
+  id?: string; // ? means optional, may not be there
+
+}
